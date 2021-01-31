@@ -1,0 +1,31 @@
+.pokemon {
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.refreshButton {
+  margin-bottom: 30px;
+  padding: 10px 20px;
+
+  font-size: 20px;
+  font-weight: 700;
+
+  border: 1px solid #333;
+  border-radius: 6px;
+}
+
+.pokemon img {
+  display: block;
+  width: 200px;
+}
+
+.name {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+

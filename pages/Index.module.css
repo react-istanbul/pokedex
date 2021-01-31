@@ -1,0 +1,28 @@
+.pokemons {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(4, 1fr);
+
+  margin: 40px;
+}
+
+.pokemon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 20px;
+
+  text-align: center;
+  text-decoration: none;
+
+  color: #333;
+
+  border: 2px solid #333;
+  border-radius: 8px;
+}
+
+.image {
+  display: block;
+  width: 40%;
+}
